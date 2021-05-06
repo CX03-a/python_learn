@@ -10,3 +10,4 @@ soup = BeautifulSoup(page, 'html.parser')
 #print(soup)
 employment = soup.find('text'=='聘', attrs={'class': 'news_list'})
 print(employment)
+# 还没写完
